@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 3em;  
+    min-height: 100vh;  
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+.carrito{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carrito{
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.img {
+    width: 350px;
+    margin: 0 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+/*body de compras*/
+.conteiner{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.img{
+  width: 200px;
+  margin: 10px;
+}
+
+.Nombre{
+  width: 200px;
+  text-align: center;
+}
+
+.precio{
+  width: 200px;
+  text-align: center;
+}
+
+.boton-compra{
+  width: 200px;
+  text-align: center;
+  border-radius: 5rem;
+}
+
+
+footer {
+  margin: 0;
+  background-color: whitesmoke;
+  color: #040108;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.redes-sociales ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-sociales li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.redes-sociales a {
+  color: black;
+  font-size: 20px;
+}
+
+.redes-sociales i {
+  transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover i {
+  color: #2dcf71;
+}
+
+.h2{
+  text-align: center;
+}
+
+.columna-centrada {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 700px; /* Ajusta el ancho del cuadro según tus necesidades */
+  height: 200px; /* Ajusta la altura del cuadro según tus necesidades */
+  padding: 10px; /* Espacio interior opcional */
+  text-align: justify;
+  padding: 5px; /* Espacio interior opcional */
+  text-align: justify;
+  margin: 0 auto; /* Centra horizontalmente el cuadro */
+  display: block;
+}
+
+.p{
+  margin-bottom: 20px
+}
+
+.caja-imagen{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+
+
