@@ -1,0 +1,249 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* menu de la pagina*/
+.body {
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 3em;  
+    min-height: 100vh;  
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+/*Contenido de la pagina web*/
+
+.capa{
+    display: flex;
+    max-width: 350px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    width: 700px; /* Ajusta el ancho del cuadro según tus necesidades */
+    height: 200px; /* Ajusta la altura del cuadro según tus necesidades */
+    padding: 10px; /* Espacio interior opcional */
+    text-align: justify;
+    padding: 5px; /* Espacio interior opcional */
+    text-align: justify;
+    margin: 0 auto; /* Centra horizontalmente el cuadro */
+    display: block;
+}
+
+.texto{
+    margin: 0 auto;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    
+}
+/*cookies*/
+.cookie-banner-container{
+    height: 350px;
+    width: 550px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rba(0,0.0,0.1);
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 15px 15px 15px;
+    box-sizing: border-box;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-58%, 0%);
+    animation: show-cookies 2s;
+}
+
+@keyframes show-cookies {
+    0%{
+        transform: translate(-50%, 100%);
+    }
+    100%{
+        transform: translate(-50%, 0%);
+    }
+    
+}
+
+.cookies1, .cookies2{
+    height: 40px;
+    width: auto;
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: go-down 4s;
+}
+
+@keyframes go-down {
+    0%{
+        transform: translate(-50%, -260%);
+    }
+    40%{
+        transform: translate(-50%, -260%);
+    }
+    
+}
+
+.cookies1{
+    top: 10px;
+    left: 10%;    
+}
+  
+.cookies2{
+    top: 9%;
+    left: 30%;
+    height: 30px;   
+}
+
+.cookies3{
+    top: 10%;
+    left: 50%;
+}
+
+.cookies4{
+    top: 10%;
+    left: 70%;
+    height: 45px;
+}
+
+.cookies5{
+    top: 0px;
+    left: 90%;
+    height: 35px;
+}
+
+.title{
+   font-size: 28px;
+   margin-bottom: 0;
+   line-height: 28px;
+}
+
+.cookies-info{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color:black;
+    margin-top: 10px;
+}
+
+.confirm-button{
+    padding: 10px 70px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.second-button{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.clearCookiesButton {
+    display: none;
+    opacity: 0;
+  }
+
+
+/*pie de pagina*/
+footer {
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #040108;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    color: black;
+    font-size: 20px;
+}
+
+.redes-sociales i {
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover i {
+    color: #2dcf71;
+}
+
+.h2{
+    text-align: center;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+
