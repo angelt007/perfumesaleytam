@@ -1,0 +1,197 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 3em;  
+    min-height: 100vh;  
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.img {
+    width: 350px;
+    margin: 0 10;
+}
+
+h2{
+    text-align: center;
+}
+/*contenedor de venta del carrito de compras*/
+
+h1 {
+  color: #333;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Ajusta la cantidad de columnas */
+  gap: 10px;
+  margin: 10px;
+}
+
+.img {
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  width: 100%;
+  height: 350px; /* Ajusta la altura de la imagen */
+  object-fit: cover;
+}
+
+.producto h3 {
+  margin-top: 10px;
+}
+
+.producto p {
+  font-weight: bold;
+}
+
+.carrito {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.lista-productos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-productos li {
+  margin-bottom: 10px;
+}
+
+.total-compra {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-pagar {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+ /*pie de pagina */
+footer.pie-de-pagina {
+    width: 350px;
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px; /* Example padding */
+    text-align: center; /* Example alignment */
+  }
+  
+  .Redes {
+    margin-bottom: 20px; /* Example margin */
+  }
+  
+  .Redes h3 {
+    color: #333; /* Example heading color */
+    font-family: 'Arial', sans-serif; /* Example font family */
+    font-size: 18px; /* Example font size */
+  }
+  
+  .Red-social {
+    display: flex; /* Arrange links in a row */
+    justify-content: center; /* Center links horizontally */
+    gap: 20px; /* Space between links */
+  }
+  
+  .Red-social a {
+    color: #26cf5e; /* Example link color */
+    font-size: 20px; /* Example link font size */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .Red-social a:hover {
+    color: #010a13; /* Change link color on hover */
+  }
+  
+  form {
+    display: flex; /* Arrange form elements in a row */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    gap: 10px; /* Space between form elements */
+  }
+  
+  form label {
+    display: block; /* Make label span the full width */
+    margin-bottom: 5px; /* Space between label and input */
+  }
+  
+  form input[type="email"] {
+    width: 200px; /* Example input width */
+    padding: 8px; /* Example input padding */
+    border: 1px solid #ccc; /* Example input border */
+    border-radius: 4px; /* Example input border-radius */
+  }
+  
+  form input[type="submit"] {
+    background-color: #27cc7f; /* Example button color */
+    color: white; /* Example button text color */
+    padding: 10px 15px; /* Example button padding */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Example button border-radius */
+    cursor: pointer; /* Indicate clickable button */
+  }
+

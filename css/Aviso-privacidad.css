@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 3em;  
+    min-height: 100vh;  
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+/*contenido del texto*/
+h1{
+    margin: 0;
+    text-align: center;
+  }
+
+.contenido{
+    width: 1600px; 
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px;
+    font-family: sans-serif;
+    padding: 20px;  
+  }
+
+
+
+/*pie de pagina*/
+footer {
+    margin: 0;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #040108;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    color: black;
+    font-size: 20px;
+}
+
+.redes-sociales i {
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover i {
+    color: #2dcf71;
+}
+
+.h2{
+    text-align: center;
+}
+
+.Terminos a:hover{
+    color: #2dcf71;
+}
+
+
+
+
+
+
+
+
+

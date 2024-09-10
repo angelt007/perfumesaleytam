@@ -1,0 +1,105 @@
+/*Encabezado de pagina*/
+.body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    
+
+}
+
+.justified-text {
+    text-align: justify;
+  }
+
+
+
+/*pie de pagina*/
+footer {
+    margin: 0;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #040108;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    color: black;
+    font-size: 20px;
+}
+
+.redes-sociales i {
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover i {
+    color: #2dcf71;
+}
+
+.h2{
+    text-align: center;
+}
