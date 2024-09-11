@@ -1,0 +1,155 @@
+ 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* menu de la pagina*/
+.body {
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 3em;  
+    min-height: 100vh;  
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+/*Cotenido de la pagina*/
+.columna-centrada{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1600px; /* Ajusta el ancho del cuadro según tus necesidades */
+    height: 100px; /* Ajusta la altura del cuadro según tus necesidades */
+    padding: 10px; /* Espacio interior opcional */
+    text-align: justify;
+    padding: 5px; /* Espacio interior opcional */
+    text-align: justify;
+    margin: 0 auto; /* Centra horizontalmente el cuadro */
+    display: block;
+}
+
+.p-columna-centrada {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+/*boton de aceptar*/
+.boton-aceptar{
+  background-color: #4CAF50; /* Verde */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espacio alrededor del texto */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de mano al pasar el mouse */
+  transition: background-color 0.3s; /* Animación de cambio de color al pasar el mouse */
+}
+
+/*boton de acpetar*/
+.contenedor {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  #boton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #mensaje-agradecimiento {
+    margin-top: 20px;
+    color: green;
+  }
+
+/*Pie de pagina*/
+footer {
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #040108;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociales a {
+    color: black;
+    font-size: 20px;
+}
+
+.redes-sociales i {
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover i {
+    color: #2dcf71;
+}
+
+.h2{
+    text-align: center;
+}
+
+a:hover{
+    color: blueviolet;
+}
